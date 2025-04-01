@@ -358,6 +358,15 @@
   /*-------------------------*\
     #PROJECTS SECTION
   \*-------------------------*/
+  #projects {
+    /* Add these two lines: */
+    position: relative; /* Establish a stacking context */
+    z-index: 4;       /* Lift it above the particle canvas (z-index: 1), keep it slightly below contact (z-index: 5) if needed */
+
+    /* Keep any existing styles if you had them */
+    padding: var(--section-padding) 0;
+  }
+
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
