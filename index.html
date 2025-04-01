@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naman Manchanda - Creative Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- AOS (Animate On Scroll) CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#hero" class="logo">NM</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#achievements">Highlights</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+             <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+     <!-- Hero Section with Particle Background -->
+    <section id="hero">
+        <!-- tsParticles container -->
+        <div id="tsparticles"></div>
+        <div class="hero-content container">
+            <h1 data-aos="fade-down" data-aos-delay="100">Naman Manchanda</h1>
+            <p class="tagline" data-aos="fade-up" data-aos-delay="300">Software Developer | Innovator | Tech Enthusiast</p>
+            <div class="social-links-hero" data-aos="fade-up" data-aos-delay="500">
+                <a href="https://www.linkedin.com/in/naman-manchanda-9728a4242/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Naman278" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://leetcode.com/u/Naman2728/" target="_blank" title="LeetCode"><i class="fas fa-code"></i></a>
+                 <a href="mailto:2728naman@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            <a href="#about" class="scroll-down-btn" aria-label="Scroll down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up"><i class="fas fa-user-astronaut icon-gradient"></i> About Me</h2>
+             <!-- Optional: Add a profile picture -->
+             <!-- <img src="images/profile.jpg" alt="Naman Manchanda" class="profile-pic" data-aos="zoom-in"> -->
+            <p data-aos="fade-up" data-aos-delay="100">
+                Hey there! I'm Naman, a passionate Computer Science student at VIT Chennai diving deep into the world of software development. I thrive on building things, especially with Flutter and Python. From crafting responsive mobile apps and integrating complex APIs to exploring the possibilities of web crawling and NLP, I love tackling challenges head-on.
+            </p>
+            <p data-aos="fade-up" data-aos-delay="200">
+                Whether leading technical initiatives at CYSCOM, representing Cisco on campus, or competing in CTFs, I'm always eager to learn, collaborate, and push the boundaries. I'm on the lookout for exciting opportunities where I can contribute my skills and grow further.
+            </p>
+        </div>
+    </section>
+
+     <!-- Skills Section -->
+    <section id="skills" class="section bg-alt">
+        <div class="container">
+            <h2 data-aos="fade-up"><i class="fas fa-cogs icon-gradient"></i> Technical Toolkit</h2>
+            <div class="skills-grid">
+                <div class="skill-card" data-aos="fade-right" data-aos-delay="100">
+                    <i class="fas fa-code skill-icon"></i>
+                    <h3>Languages</h3>
+                    <p>C, C++, Java, Python, Dart</p>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-brain skill-icon"></i>
+                    <h3>Core Concepts</h3>
+                    <p>Data Structures, Algorithms, OOPs, DBMS, OS, Networks</p>
+                </div>
+                 <div class="skill-card" data-aos="fade-left" data-aos-delay="300">
+                     <i class="fas fa-mobile-alt skill-icon"></i>
+                    <h3>Frameworks & Mobile</h3>
+                    <p>Flutter, Firebase, Android (basic)</p>
+                </div>
+                 <div class="skill-card" data-aos="fade-right" data-aos-delay="100">
+                     <i class="fas fa-cloud skill-icon"></i>
+                    <h3>Web & Backend</h3>
+                    <p>REST APIs, Web Scraping, Python (Web Context), Firebase</p>
+                </div>
+                 <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-tools skill-icon"></i>
+                    <h3>Tools & Platforms</h3>
+                    <p>Git, GitHub, Cisco Packet Tracer, Google Play Console</p>
+                </div>
+                <div class="skill-card" data-aos="fade-left" data-aos-delay="300">
+                   <i class="fas fa-comments skill-icon"></i>
+                   <h3>Soft Skills</h3>
+                   <p>Leadership, Communication, Teamwork, Problem Solving</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+         <div class="container">
+            <h2 data-aos="fade-up"><i class="fas fa-project-diagram icon-gradient"></i> Featured Projects</h2>
+             <div class="projects-grid">
+                 <article class="project-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="project-image">
+                       <!-- Placeholder Image or actual screenshot -->
+                        <img src="https://via.placeholder.com/400x250/007bff/ffffff?text=Smart+Crawler" alt="Smart Crawler">
+                    </div>
+                    <div class="project-content">
+                        <h3>Smart Web Crawler & Summarizer</h3>
+                        <span class="project-tech"><i class="fab fa-python"></i> Python | NLP | Chrome Ext.</span>
+                        <p>Chrome extension leveraging NLP and concurrent crawling to summarize articles & find related links.</p>
+                        <div class="project-links">
+                             <a href="https://github.com/VoidVampire/Smart-Crawler-and-Summarizer" target="_blank" class="btn-outline"><i class="fab fa-github"></i> Code</a>
+                            <!-- <a href="#" target="_blank" class="btn-outline"><i class="fas fa-external-link-alt"></i> Demo</a> -->
+                        </div>
+                    </div>
+                 </article>
+                  <article class="project-card" data-aos="zoom-in" data-aos-delay="200">
+                     <div class="project-image">
+                         <img src="https://via.placeholder.com/400x250/28a745/ffffff?text=AkoiMart" alt="AkoiMart">
+                    </div>
+                     <div class="project-content">
+                        <h3>AkoiMart - Goods Selling App</h3>
+                        <span class="project-tech"><i class="fab fa-flutter"></i> Flutter | Firebase | REST | Play Store</span>
+                        <p>Freelance project: A responsive mobile storefront with API integration, published on Google Play.</p>
+                         <div class="project-links">
+                             <a href="https://play.google.com/store/apps/details?id=com.akoimart.akoimart&pcampaignid=web_share" target="_blank" class="btn-outline"><i class="fab fa-google-play"></i> Play Store</a>
+                             <!-- Maybe add Github link if public -->
+                        </div>
+                    </div>
+                 </article>
+                  <article class="project-card" data-aos="zoom-in" data-aos-delay="300">
+                     <div class="project-image">
+                       <img src="https://via.placeholder.com/400x250/dc3545/ffffff?text=Insta+Clone" alt="Instagram Clone">
+                     </div>
+                     <div class="project-content">
+                        <h3>Instagram Clone</h3>
+                        <span class="project-tech"><i class="fab fa-flutter"></i> Flutter | Firebase</span>
+                        <p>A functional clone replicating core UI/UX features of Instagram using Flutter and Firebase.</p>
+                        <div class="project-links">
+                           <a href="https://github.com/Naman278/instagram_clone" target="_blank" class="btn-outline"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                 </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section bg-alt">
+        <div class="container">
+            <h2 data-aos="fade-up"><i class="fas fa-briefcase icon-gradient"></i> Journey So Far</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-icon"><i class="fas fa-rocket"></i></div>
+                    <div class="timeline-content">
+                        <h3>Spring Time Softwares</h3>
+                        <span class="date">Feb 2024 - June 2024</span>
+                        <p><strong>Software Development Freelance:</strong> Developed a full-fledged Flutter shopping app, integrated APIs, optimized performance.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right" data-aos="fade-left">
+                     <div class="timeline-icon"><i class="fas fa-lightbulb"></i></div>
+                    <div class="timeline-content">
+                        <h3>RS IT Hub</h3>
+                        <span class="date">Aug 2023 - Oct 2023</span>
+                        <p><strong>Software Development Intern:</strong> Key contributor to a Flutter frontend project, gaining valuable team experience.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                     <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="timeline-content">
+                        <h3>Vellore Institute of Technology, Chennai</h3>
+                         <span class="date">2021 - Present</span>
+                         <p><strong>B.Tech, Computer Science & Engineering:</strong> Building a strong foundation (CGPA: 8.88).</p>
+                    </div>
+                 </div>
+             </div>
+        </div>
+    </section>
+
+    <!-- Achievements / Highlights -->
+     <section id="achievements" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up"><i class="fas fa-trophy icon-gradient"></i> Highlights & Roles</h2>
+             <div class="highlights-grid">
+                 <div class="highlight-card" data-aos="flip-left" data-aos-delay="100">
+                     <i class="fas fa-award"></i>
+                    <h3>CTF Champion</h3>
+                    <p>1st @ Hackers Horizon</p>
+                    <p>2nd @ HHRH 2.0 (MIC VIT)</p>
+                    <p>3rd @ Cyber-o-day</p>
+                 </div>
+                 <div class="highlight-card" data-aos="flip-up" data-aos-delay="200">
+                    <i class="fas fa-users"></i>
+                    <h3>Tech Lead @ CYSCOM</h3>
+                     <p>Managed events, CTFs, learning</p>
+                     <p>(Jan 2024 - Nov 2024)</p>
+                 </div>
+                  <div class="highlight-card" data-aos="flip-right" data-aos-delay="300">
+                     <i class="fas fa-network-wired"></i>
+                     <h3>Cisco Ambassador</h3>
+                     <p>Organized tech events</p>
+                     <p>(2023 - 2024)</p>
+                  </div>
+             </div>
+         </div>
+    </section>
+
+    <!-- Optional: Suggestion for a 3D Section -->
+    <!-- <section id="interactive-3d" class="section bg-alt">
+        <div class="container">
+            <h2 data-aos="fade-up"><i class="fas fa-cube icon-gradient"></i> Interactive Element</h2>
+            <p data-aos="fade-up" data-aos-delay="100">Explore a 3D model! (Created with Spline - easy to embed)</p>
+            <div class="spline-embed" data-aos="zoom-in" data-aos-delay="200"> -->
+                 <!-- Paste Spline Embed Code Here (example) -->
+    
+                 <!-- <iframe src='https://my.spline.design/YOUR-SCENE-HERE/' frameborder='0' width='100%' height='400px'></iframe>
+             </div>
+         </div>
+     </section> -->
+     
+
+     <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container text-center">
+             <h2 data-aos="fade-up"><i class="fas fa-paper-plane icon-gradient"></i> Let's Connect!</h2>
+             <p data-aos="fade-up" data-aos-delay="100">
+                Open to internships, collaborations, and challenging projects. Let's build something amazing together!
+            </p>
+            <a href="mailto:2728naman@gmail.com" class="btn-primary" data-aos="fade-up" data-aos-delay="200"><i class="fas fa-envelope"></i> Say Hello</a>
+            <div class="social-links-footer" data-aos="fade-up" data-aos-delay="300">
+                 <a href="https://www.linkedin.com/in/naman-manchanda-9728a4242/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Naman278" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://leetcode.com/u/Naman2728/" target="_blank" title="LeetCode"><i class="fas fa-code"></i></a>
+            </div>
+         </div>
+     </section>
+
+    <!-- Footer -->
+    <footer>
+         <div class="container">
+             <p>© <span id="year"></span> Naman Manchanda | Crafted with <i class="fas fa-heart"></i> & <i class="fas fa-mug-hot"></i></p>
+         </div>
+     </footer>
+
+     <!-- Scripts -->
+    <!-- tsParticles -->
+     <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+    <!-- AOS (Animate On Scroll) JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <!-- Your Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
